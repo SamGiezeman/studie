@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+".html":[0,0,0],
+"annotated.html":[0,0],
+"class_catch_1_1_junit_reporter.html":[0,0,0,0],
+"classes.html":[0,1],
+"classrational.html":[0,0,1],
+"classrational.html#a1dd39ab2daf08ee68087fdbb37be258e":[0,0,1,2],
+"classrational.html#a2b5729aef261d16cd18ff7c7fcbf8c6e":[0,0,1,3],
+"classrational.html#a5b7c78fca4537715369ba7da02abb4df":[0,0,1,6],
+"classrational.html#a5f971ef33181044f54d8e4fee71cb957":[0,0,1,0],
+"classrational.html#a8b565720ea15ddfb17ea202e27698478":[0,0,1,5],
+"classrational.html#a9b83ad0c803d2ac242b42e71d954a356":[0,0,1,4],
+"classrational.html#a9c0f08f8be5db907dc6d93ad3f5cb26b":[0,0,1,1],
+"dir_cb3c298f6a726dad19559f9bd1781982.html":[1,0,0,0],
+"dir_d42c92abc8fba23d29c0a45ecbb3f4c7.html":[1,0,0,0,0],
+"dir_ef8ff69bbf2b37ed0844bc2408004df8.html":[1,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"functions_rela.html":[0,2,2],
+"index.html":[],
+"main_8cpp_source.html":[1,0,0,0,0,0],
+"pages.html":[],
+"rational_8hpp.html":[1,0,0,0,0,1],
+"rational_8hpp_source.html":[1,0,0,0,0,1]
+};
