@@ -55,7 +55,6 @@ public:
         return ( x == rhs.x ) && ( y == rhs.y );
     }
     
-    
     /// \brief
     ///  add two vectors to eachother 
     /// \details
@@ -74,15 +73,10 @@ public:
         return *this;
     }
     
-    //this is commented becouse I could not find a way to refference the left hand side integer
-    //vector operator*( const vector & rhs) const{
-    //    return vector(this * rhs.x, this * rhs.y);
-    //}
-    
     /// \brief
     ///  multiply a vector with an int
     /// \details
-    ///  this operator multiplies two vectors to eachother using the + operator
+    ///  this operator multiplies two vectors to eachother using the * operator
     vector operator*( const int rhs) const{
         return vector(rhs* x, rhs* y);
     }
@@ -90,12 +84,20 @@ public:
     /// \brief
     ///  multiply a vector with an int
     /// \details
-    ///  multiply a vectors to an int using the += operator and returning itself
+    ///  multiply a vectors to an int using the *= operator and returning itself
     vector operator*=(const int & rhs){
         x *= rhs;
         y *= rhs;
         return *this;
     }
-
+    
+    /// \brief
+    ///  multiply a vector with an int
+    /// \details
+    ///  multiply a vectors to an int  on the left hand side using the * operator and returning itself.
+    friend vector operator*(const int & lhs, const vector & rhs ){
+        return vector(rhs.x*lhs,rhs.y*lhs);
+    }
 };
+
 #endif

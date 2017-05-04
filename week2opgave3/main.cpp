@@ -35,12 +35,11 @@ TEST_CASE( "multiply a vector with right hand side integer" ){
     REQUIRE( c == vector(20, 20) );
 }
 
-// WIP
-//TEST_CASE( "multiply a vector with left hand side integer" ){
-//    vector v(4, 4);
-//    vector c = 5*c;
-//    REQUIRE( c == vector(20, 20) );
-//}
+TEST_CASE( "multiply a vector with left hand side integer" ){
+    vector v(4, 4);
+    vector c = 5*v;
+    REQUIRE( c == vector(20, 20) );
+}
 
 TEST_CASE( "multiply a vector with *= operator" ){
     vector v(4, 4);
@@ -77,13 +76,11 @@ TEST_CASE( "Vector * int" ){
    REQUIRE( v2 == vector( 5, 20 ) );   
 }
 
-/* Can't get this operator to work
 TEST_CASE( "int * vector" ){
    vector v1( 1, 4 );
    vector v2 = 5 * v1;
    REQUIRE( v2 == vector( 5, 20 ) );   
 }
-*/
 
 TEST_CASE( "Vector *= int" ){
    vector v1( 4, 3 );
