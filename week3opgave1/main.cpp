@@ -10,8 +10,7 @@ int main(){
    wall bottom( w, vector( 0, 60 ), vector(   127, 64 ), 12 );
    wall left( w, vector(   0, 0 ), vector(   3,  64 ), 8 );
    ball b( w, vector( 10, 10 ), 8, vector( 2, 2 ) );
-   wall china( w, vector(   10, 10 ), vector(   20,  20 ), 10 );
-   drawable * objects[] = { &b, &top, &left, &right, &bottom, &china };
+   drawable * objects[] = { &b, &top, &left, &right, &bottom };
 
    for(;;){
       w.clear();
