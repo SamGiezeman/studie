@@ -1,5 +1,10 @@
 #include "hwlib.hpp"
 
+/// \brief
+/// main
+/// \details
+/// this main contains code that lets 2 LED's light up and go on and of again between 4 LED's
+/// 
 int main( void ){	
    // kill the watchdog
    WDT->WDT_MR = WDT_MR_WDDIS;
