@@ -23,7 +23,7 @@ public:
     pin1(pin1),
     pin2(pin2)
     {}
-    bool get() override{
+    bool get(hwlib::buffering buf = hwlib::buffering::unbuffered) override{
         return (pin1.get() && pin2.get());
     }
 };

@@ -2,7 +2,7 @@
 #include "pin_out_invert.hpp"
 
 //------------------------------------------------------------------------------
-//deze code is gecopieerd omdat het niet in hwlib stond maar wel nodig is
+//deze code is gekopieerd omdat het niet in hwlib stond maar wel nodig is
 class pin_out_all : public hwlib::pin_out {
 private:
    hwlib::pin_out * list[ 4 ];     
@@ -64,5 +64,5 @@ int main( void ){
     
     auto leds = pin_out_all( serialBusses, invertedLeds );
     
-    hwlib::kitt( leds );
+    hwlib::blink( leds );
 }
